@@ -1,0 +1,17 @@
+{
+  "id": "office-tool-plus",
+  "name": "Office Tool Plus",
+  "version": "11.6.6.0 (2026/08/12)",
+  "description": "\u4E00\u4E2A\u5F3A\u5927\u4E14\u5B9E\u7528\u7684 Office \u90E8\u7F72\u5DE5\u5177\r\u96C6\u6210\u4E86\u5404\u79CD\u5B9E\u7528\u6027\u5DE5\u5177\u5E2E\u52A9\u7528\u6237\u90E8\u7F72\u548C\u7BA1\u7406 Office",
+  "category": "\u5176\u4ED6\u5DE5\u5177",
+  "publisher": "YerongAI",
+  "tags": [
+    "office"
+  ],
+  "launchTarget": "setup.exe",
+  "author": "GDGGfun",
+  "submittedAt": "2026-08-31T09:50:19.4641659\u002B00:00",
+  "homepage": "https://otp.landian.vip/zh-cn/",
+  "downloadUrl": "https://mirror.nju.edu.cn/github-release/YerongAI/Office-Tool/Office%20Tool%20Plus%20v11.6.6.0/Office_Tool_with_runtime_v11.6.6.0_x64.zip",
+  "icon": "2.ico"
+}
