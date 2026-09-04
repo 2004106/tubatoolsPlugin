@@ -10,7 +10,7 @@
 #    全部元信息（简介/名字/分类/标签/文件 sha 等），客户端 1 次请求拿到整个工具列表，
 #    不再 N+1 次目录遍历 + 每工具 1 次详情请求。
 #
-# 排行榜上限 1000：reports 超 1000 份时，前 200 名无条件保留，200 名外优先剔除
+# 排行榜上限 2000：reports 超 2000 份时，前 200 名无条件保留，200 名外优先剔除
 # 同作者的重复提交（每人只留综合榜最高分一份），仍超出则按 author+id 的稳定哈希
 # “随机”剔除——确定性结果，同样的输入永远产生同样的输出，避免每次构建抖动。
 name: Update leaderboard & community index
@@ -44,8 +44,8 @@ jobs:
             const path = require('path');
             const { execSync } = require('child_process');
 
-            // 排行榜上限：reports 最多列出 1000 份；前 200 名无条件保留
-            const MAX_LISTED = 1000;
+            // 排行榜上限：reports 最多列出 2000 份；前 200 名无条件保留
+            const MAX_LISTED = 2000;
             const KEEP_TOP = 200;
             const DETAILS_DIR = path.join(process.env.GITHUB_WORKSPACE, 'leaderboard', 'details');
             const workspace = process.env.GITHUB_WORKSPACE;
