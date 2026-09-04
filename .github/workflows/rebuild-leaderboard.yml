@@ -15,13 +15,11 @@
 # “随机”剔除——确定性结果，同样的输入永远产生同样的输出，避免每次构建抖动。
 name: Update leaderboard & community index
 
+# 仅手动触发（workflow_dispatch）。报告/插件合入后需要刷新排行榜时，
+# 在 Actions 页手动 Run workflow 即可；产物全部确定性生成（见文件头注释），
+# 不会因为数据不变而产生 diff。
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'plugins/**'
-      - 'reports/**'
 
 jobs:
   rebuild:
