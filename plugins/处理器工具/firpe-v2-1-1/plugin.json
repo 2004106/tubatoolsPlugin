@@ -1,0 +1,14 @@
+{
+  "id": "firpe-v2-1-1",
+  "name": "FirPE-V2.1.1",
+  "version": "1.0",
+  "description": "Windows\u4E0A\u5F88\u597D\u7528\u7684PE",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "FirPE-V2.1.1.exe",
+  "author": "luolangaga",
+  "submittedAt": "2026-09-04T17:49:22.5857446\u002B00:00",
+  "homepage": null,
+  "downloadUrl": "https://gitcode.com/luolangaga/firpe/releases/download/2.1.1/FirPE-V2.1.1.zip"
+}
