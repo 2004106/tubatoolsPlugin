@@ -1,0 +1,17 @@
+{
+  "id": "winrar-\u53BB\u5E7F\u544A\u76F4\u88C5\u7248",
+  "name": "WINRAR \u53BB\u5E7F\u544A\u76F4\u88C5\u7248",
+  "version": "7.20",
+  "description": "\u5F3A\u5927\u7684\u538B\u7F29\u6587\u4EF6\u7BA1\u7406\u5668\uFF0C\u5185\u7F6Ekey\u514D\u6388\u6743\uFF0C\u53BB\u5E7F\u544A\uFF0C\u76F4\u88C5\u7248",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u538B\u7F29"
+  ],
+  "launchTarget": "winrar-x64-720sc.exe",
+  "author": "GDGGfun",
+  "submittedAt": "2026-08-31T10:00:12.4378738\u002B00:00",
+  "homepage": null,
+  "file": "winrar-x64-720sc.zip",
+  "icon": "12.ico"
+}
