@@ -1,0 +1,18 @@
+{
+  "id": "total-uninstall",
+  "name": "Total Uninstall",
+  "version": "7.6.2.367",
+  "description": "\u4E00\u4E2A\u975E\u5E38NB\u7684\u5378\u8F7D\u8F6F\u4EF6",
+  "category": "\u5176\u4ED6\u5DE5\u5177",
+  "publisher": "Gavrila Martau.",
+  "tags": [
+    "\u8F6F\u4EF6\u5378\u8F7D",
+    "\u5378\u8F7D"
+  ],
+  "launchTarget": "Tu.exe",
+  "author": "lanpinggai666",
+  "submittedAt": "2026-08-26T12:39:14.1093809\u002B00:00",
+  "homepage": "https://www.martau.com/zh-CN/",
+  "file": "TotalUninstallPortable.zip",
+  "icon": "favicon.ico"
+}
